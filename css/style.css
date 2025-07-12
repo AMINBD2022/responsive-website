@@ -1,0 +1,339 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* ----------------- Shared Css--------------- */
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.btn_global{
+    background-color:#4E47FF;
+    font-size: 16px;
+    color:#ffffff;
+    display: block;
+    padding: 14px 32px;
+    border-radius: 10px;
+    border:0;
+    cursor: pointer;
+    transition: all 0.3s ;
+
+}
+
+
+.btn_global:hover {
+    background-color: #ffffff;
+    color: #4E47FF; 
+    box-shadow: 0 0 15px rgba(78, 71, 255, 0.4);
+}
+
+
+
+
+
+
+
+/*  ----------------------Shared Css End --------------------------------- */
+
+header{
+    background: url(../images/Hero-bg.png) center / cover no-repeat;
+    width: 100%;
+    min-height: 698px;
+    margin: auto;
+}
+
+header nav ul {
+    max-width: 1140px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    list-style: none;
+
+}
+
+header .logo{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #4E47FF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.banner {
+    max-width: 905px;
+    margin: auto;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-top:40px;
+}
+
+.banner .btn_global {
+    margin: auto;
+    margin-top: 25px;
+}
+
+/* --------------- banner section END  ----------------*/
+
+.action-area {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 0;
+
+
+}
+
+.action-area .text-box{
+    max-width: 500px;
+}
+.action-area .text-box h3{
+    font-size: 42px;
+    font-weight: bold;
+    color:#252432;
+    padding-bottom: 23px;
+}
+.action-area .text-box p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    color: #25243280;
+    padding-bottom: 23px;
+}
+.action-area img{
+    border-radius: 48px;
+}
+
+/* ---------------------Action area end -------------------- */
+/* -------------------- productiv section start ---------------------------- */
+
+.productive-section{
+    max-width: 1140px;
+    margin: auto;
+    background-color: #4d47ff28;
+    border-radius: 24px;
+    padding:50px 80px;
+    text-align: center;
+}
+.productive-section h2{
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432;
+    padding-bottom: 40px;
+}
+.productive-section .text-boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.productive-section .text-boxes .box h4{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+}
+.productive-section .text-boxes span{
+    font-size: 20px;
+    font-weight: normal;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------- productiv section end ---------------------------- */
+
+/* ------------------------------- User Feed Back section -----------------------------------*/
+
+.feedback-section{
+    padding: 100px 0;
+}
+.feedback-section .feedback-title{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+    color:#252432;
+}
+
+.card-section{
+    display: flex;
+    gap:26px;
+}
+.card{
+    max-width: 400px;
+    border:1px solid #F2EDED;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card .rating{
+    display: flex;
+    gap:5px;
+    padding-bottom: 24px;
+}
+
+.card .card-description{
+    padding:10px 0 24px;
+}
+.card .user{
+    display: flex;
+    gap:5px;
+}
+.card .user img{
+    border-radius: 50%;
+}
+.card .user .username{
+    color:#757575;
+    padding-bottom: 5px;
+}      
+.card .user p.date{
+    color:#B3B3B3;
+}
+
+
+/* ------------------------------- User Feed Back section End -----------------------------------*/
+
+/* --------------------CTA-section --------------------------- */
+
+.CTA-section{
+    margin: auto;
+    text-align: center;
+    padding: 71px 150px;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+
+.CTA-section .section-title , .CTA-section .section-description {
+    margin-bottom: 20px;
+}
+.CTA-section .section-title{
+    font-size: 50px;
+    font-weight: 700;
+    color:#000000;
+}
+.CTA-section .section-description{
+    font-size: 16px;
+    font-weight:400;
+    color:rgba( 0, 0, 0, 0.5);
+}
+.CTA-section button{
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.CTA-section img{
+    border-radius: 48px;
+}
+/* --------------------- Form section statr ------------------------------------- */
+
+
+
+.form-section{
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-section .form-title{
+    max-width: 528px;
+}
+.form-section .form-title h2{
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+form{
+    width: 497px;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000000;
+}
+
+form input , form textarea{
+    width: 100%;
+    height: 60px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color:#000000;
+    line-height: 150%;
+    outline: none;
+}
+
+
+form textarea{
+    height: 120px;
+}
+
+input[type=submit]{
+    padding:20px 100px ;
+    margin:0;
+    width: 100%;
+    height: auto;
+
+}  
+
+
+/* -------------------Footer section ---------------------------- */
+
+
+footer .footer-section{
+    padding:100px 0;
+    margin: auto;
+    max-width: 530px;
+    text-align: center;
+}
+footer .footer-section h2{
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color:#4E47FF;
+}
+footer p{
+    color: #8987A1;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .footer-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-menu li a{
+    text-decoration: none;
+    color:#8987A1;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
